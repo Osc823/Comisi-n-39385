@@ -1,0 +1,114 @@
+/* Querys */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@media (max-width:1075px){
+    .grid-layout{
+        display: grid;
+        grid-template-areas:'cabecera cabecera'
+                              'menu menu'
+                              'nosotros nosotros'
+                              'contenido contenido'
+                              'footer footer';
+        grid-template-rows: auto auto auto auto auto ;
+        grid-template-columns: 60% 40%;
+        background-color: aquamarine;
+        border: 1px solid black;
+      }
+
+
+}
+@media only screen and (max-width:596px) {
+  .caja-cards{
+    margin-top: 120px;
+  }
+  .caja-cardsakt{
+    margin-top: 10px;
+  }
+  .caja-carrusel{
+    grid-area:cabecera;
+    background-color: lightblue;
+    height: 350px;
+  }
+  
+  .mapa-container {
+    justify-self: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 0%;
+    margin: auto;
+  }
+  .mapa-container iframe {
+    margin-top: 0;;
+    padding-top: 0;
+    position: relative;
+  }
+}
+@media only screen and (max-width:425px) {
+  .titulo_vi-mi{
+    padding-top: 10px;
+    text-align:center;
+    font-family: 'Black Ops One', cursive;
+    color:#333333;
+    font-size: 30px;
+  }
+  .h2-mantenimientos{
+    font-size: 14px;
+  }
+  
+}
+
+@media only screen and  (max-width:361px) {
+    .grid-layout{
+      display: grid;
+      grid-template-areas:'cabecera cabecera'
+                            'menu menu'
+                            'nosotros nosotros'
+                            'contenido contenido'
+                            'footer footer';
+      grid-template-rows: auto auto auto auto auto ;
+      grid-template-columns: 60% 40%;
+      background-color: aquamarine;
+      border: 1px solid black;
+    }
+    .titulo_vi-mi{
+        padding-top: 10px;
+        text-align:center;
+        font-family: 'Black Ops One', cursive;
+        color:#333333;
+        font-size: 30px;
+        
+    }
+    .h2-mantenimientos{
+      font-size: 14px;
+    }
+    .button {
+      font-family: 'Black Ops One', cursive;
+      justify-content: center;
+      background-color: #202224; /* color de fondo */
+      border: none; /* eliminamos el borde */
+      color: white; /* color del texto */
+      text-align: center; /* centramos el texto */
+      text-decoration: none; /* eliminamos la subrayado */
+      display: inline-block; /* hacemos que el botón sea un bloque en línea */
+       /* tamaño de la fuente */
+      border-radius: 8px; /* agregamos bordes redondeados */
+      transition: all 0.3s ease 0s; /* añadimos una transición al pasar el cursor sobre el botón */
+      cursor: pointer; /* cambiamos el cursor a una mano al pasar sobre el botón */
+      position: absolute;
+      margin-bottom: 0;
+      width: 60%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      position: absolute;
+      padding: 5px 5px;
+      font-size: 16px;
+      color: #ffffff;
+      border: 2px solid white;
+      border-radius: 8px;
+      text-align: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+}
