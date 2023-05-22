@@ -1,0 +1,81 @@
+.caja-carrusel{
+    padding: 10px;
+    grid-area:cabecera;
+    background-color: lightblue;
+}
+.caja-cards{
+    padding: 10px;
+    grid-area:menu;
+    background-color: lightblue;
+}
+.mapa-container {
+    justify-self: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 30%;
+    margin: auto;
+  }
+   
+  .mapa-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .carrusel3{
+      display: block;
+      margin: 0 auto;
+      max-width: 50%;
+      height: 40%;
+  }
+  .carrusel5{
+    display: block;
+    margin: 0 auto;
+    padding-top: 0px;
+    max-width: 100%;
+    height: auto;
+  }
+  .sectiona{
+    background-color: #4661ad;
+    margin-bottom: 20px;
+  }
+  .boton-bonito4 {
+    font-family: 'Black Ops One', cursive;
+    justify-content: center;
+    background-color: #336394; /* color de fondo */
+    border: none; /* eliminamos el borde */
+    color: white; /* color del texto */
+    padding: 12px 24px; /* espacio dentro del botón */
+    text-align: center; /* centramos el texto */
+    text-decoration: none; /* eliminamos la subrayado */
+    display: inline-block; /* hacemos que el botón sea un bloque en línea */
+    font-size: 16px; /* tamaño de la fuente */
+    border-radius: 8px; /* agregamos bordes redondeados */
+    transition: all 0.3s ease 0s; /* añadimos una transición al pasar el cursor sobre el botón */
+    cursor: pointer; /* cambiamos el cursor a una mano al pasar sobre el botón */
+    margin-bottom: 15px;
+  }
+  
+  .boton-bonito4:hover {
+    background-color: #4a8faf; /* color de fondo al pasar el cursor */
+  }
+  .cardt { 
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: #ffffff solid 6px;
+    width: 250px;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;  
+}
+.titulo_medior{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    color:#cfcbcb;
+    font-size: 40px;
+}

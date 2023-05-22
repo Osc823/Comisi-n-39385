@@ -1,0 +1,145 @@
+
+.caja-vm{
+    padding: 10px;
+    grid-area: contenido;
+    background-color: lightblue
+}
+  
+.section4{
+    background-color: #E5E5E5;
+}
+   
+.titulo_vi-mi{
+    padding-top: 10px;
+    text-align:center;
+    font-family: 'Black Ops One', cursive;
+    color:#333333;
+    font-size: 40px;   
+}
+
+.container-vi-mi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+     
+.card3 {
+    justify-content:baseline;
+    width: 550px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 10px; 
+    border-radius: 10px;
+    border: #ffffff solid 7px;
+}
+                  
+.vision, .mision {
+    max-width: 100%; 
+}
+                        
+                
+.boton-bonito2 {
+    font-family: 'Black Ops One', cursive;
+    background-color: #c21d1d; /* color de fondo */
+    border: none; /* eliminamos el borde */
+    color: white; /* color del texto */
+    padding: 12px 24px; /* espacio dentro del botón */
+    text-align: center; /* centramos el texto */
+    text-decoration: none; /* eliminamos la subrayado */
+    display: inline-block; /* hacemos que el botón sea un bloque en línea */
+    font-size: 16px; /* tamaño de la fuente */
+    border-radius: 8px; /* agregamos bordes redondeados */
+    transition: all 0.3s ease 0s; /* añadimos una transición al pasar el cursor sobre el botón */
+    cursor: pointer; /* cambiamos el cursor a una mano al pasar sobre el botón */
+    margin-bottom: 15px;
+}
+.boton-bonito2:hover {
+    background-color: #1178b3; /* color de fondo al pasar el cursor */
+}
+.image-container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container-repuestos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.button {
+    font-family: 'Black Ops One', cursive;
+    justify-content: center;
+    background-color: #202224; /* color de fondo */
+    border: none; /* eliminamos el borde */
+    color: white; /* color del texto */
+    text-align: center; /* centramos el texto */
+    text-decoration: none; /* eliminamos la subrayado */
+    display: inline-block; /* hacemos que el botón sea un bloque en línea */
+    font-size: 16px; /* tamaño de la fuente */
+    border-radius: 8px; /* agregamos bordes redondeados */
+    transition: all 0.3s ease 0s; /* añadimos una transición al pasar el cursor sobre el botón */
+    cursor: pointer; /* cambiamos el cursor a una mano al pasar sobre el botón */
+    position: absolute;
+    margin-bottom: 0;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    position: absolute;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #FB6900;;
+}
+.nosotros-parrafo{
+    padding-right: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.cardc{ 
+    justify-content:baseline;
+    width: 550px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .formulario {
+    background-image: linear-gradient(to bottom, lightblue, #e0d8d8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .caja-nosotros{
+    padding: 10px;
+    grid-area: nosotros;
+    background-color: lightblue
+} 
+  
+.container-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.titulo_form{
+    padding-bottom: 15px;
+    text-align:center;
+    font-family: 'Black Ops One', cursive;
+    color:#333333;
+    font-size: 20px;
+  }
+  .btn-formu{
+    padding-top: 20px;
+    text-align: center;
+  }

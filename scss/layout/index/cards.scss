@@ -1,0 +1,268 @@
+.caja-cardsakt{
+        padding: 10px;
+        grid-area:menu;
+        background-color: lightblue;
+    }         
+    .flex-container{
+        background-color: #E5E5E5;
+    }
+    .titulo_vi-mi{
+        padding-top: 10px;
+        text-align:center;
+        font-family: 'Black Ops One', cursive;
+        color:#333333;
+        font-size: 40px;
+        
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card { 
+        background-color: white; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: #ffffff solid 1px;
+        width: 250px;
+        padding: 20px;
+        margin-bottom: 40px;
+        margin-left: 5px;
+        margin-right: 5px;    
+    }
+    .moto{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: auto;
+        width: 250px;
+    }
+    .cardt { 
+        background-color: white; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: #ffffff solid 6px;
+        width: 250px;
+        padding: 20px;
+        margin-bottom: 40px;
+        margin-left: 5px;
+        margin-right: 5px;  
+    }
+    .sectionp{
+        background-color: #3a3737;
+        margin-bottom: 20px;
+      }
+    .precio{
+        padding-top: 5px;
+        text-align: center;
+        font-family: 'Black Ops One', cursive;
+        color:#333333;
+        font-size: 20px;
+    }               
+    .boton-bonito {
+        font-family: 'Black Ops One', cursive;
+        background-color: #c21d1d; /* color de fondo */
+        border: none; /* eliminamos el borde */
+        color: white; /* color del texto */
+        padding: 12px 24px; /* espacio dentro del botón */
+        text-align: center; /* centramos el texto */
+        text-decoration: none; /* eliminamos la subrayado */
+        display: inline-block; /* hacemos que el botón sea un bloque en línea */
+        font-size: 16px; /* tamaño de la fuente */
+        border-radius: 8px; /* agregamos bordes redondeados */
+        transition: all 0.3s ease 0s; /* añadimos una transición al pasar el cursor sobre el botón */
+        cursor: pointer; /* cambiamos el cursor a una mano al pasar sobre el botón */
+        margin-bottom: 15px;
+    }
+    .boton-bonito:hover {
+        background-color: #44b311; /* color de fondo al pasar el cursor */
+    }
+    .caja-nosotros{
+        padding: 10px;
+        grid-area: nosotros;
+        background-color: lightblue
+    }          
+    .section3{
+        background-color: #E5E5E5;
+    }
+                          
+    .titulo_vi-mi{
+        padding-top: 10px;
+        text-align:center;
+        font-family: 'Black Ops One', cursive;
+        color:#333333;
+        font-size: 40px;   
+    }
+    
+    .container-nosotros{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .formulario {
+        background-image: linear-gradient(to bottom, lightblue, #e0d8d8);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+    
+    .card2{ 
+        justify-content:baseline;
+        align-items: center;
+        width: 550px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .nosotros-parrafo{
+        padding-right: 25px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    .cardc{ 
+        justify-content:baseline;
+        width: 550px;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+       .titulo_medio{
+        text-align: center;
+        font-family: 'Black Ops One', cursive;
+        color:#333333;
+        font-size: 40px;
+        } 
+     
+    
+    
+    .card2{ 
+        justify-content:baseline;
+        align-items: center;
+        width: 550px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .linea{
+        display: block;
+        max-width: 100%;
+        height: 350px;
+        padding: auto;
+        width: 650px;
+        border-radius: 20px;
+    } 
+    .linea {
+        transition: transform 0.3s ease;
+      }
+      
+      .linea:hover {
+        transform: scale(1.05);
+      }
+       
+    
+    .moto {
+        transition: transform 0.3s ease;
+      }
+      
+      .moto:hover {
+        transform: scale(1.05);
+      }
+    .caja-vm{
+        padding: 10px;
+        grid-area: contenido;
+        background-color: lightblue
+    }
+      
+    .section4{
+        background-color: #E5E5E5;
+    }
+       
+    .titulo_vi-mi{
+        padding-top: 10px;
+        text-align:center;
+        font-family: 'Black Ops One', cursive;
+        color:#333333;
+        font-size: 40px;   
+    }
+    
+    .container-vi-mi{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+         
+    .card3 {
+        justify-content:baseline;
+        width: 550px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin: 10px; 
+        border-radius: 10px;
+        border: #ffffff solid 7px;
+    }
+    .carrusel2{
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+        max-width: 60%;
+        height: 40%;
+    }
+    .carrusel4{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: 80%;
+      }
+      .titulo_medior{
+        text-align: center;
+        font-family: 'Black Ops One', cursive;
+        color:#cfcbcb;
+        font-size: 40px;
+    }
+    .sectionr{
+        background-color: #ad4646;
+        margin-bottom: 20px;
+    }
+    .titulo_nosotros{
+        padding-top: 10px;
+        padding-left: 95px;
+        text-align:left;
+        font-family: 'Black Ops One', cursive;
+        color:#333333;
+        font-size: 40px;
+      }
+                      
+    .vision, .mision {
+        max-width: 100%; 
+    }
+    .vision, .mision {
+        transition: transform 0.3s ease;
+      }
+      
+      .vision:hover, .mision:hover {
+        transform: scale(1.05);
+      }
+                            
+                    
+    .boton-bonito2 {
+        font-family: 'Black Ops One', cursive;
+        background-color: #c21d1d; /* color de fondo */
+        border: none; /* eliminamos el borde */
+        color: white; /* color del texto */
+        padding: 12px 24px; /* espacio dentro del botón */
+        text-align: center; /* centramos el texto */
+        text-decoration: none; /* eliminamos la subrayado */
+        display: inline-block; /* hacemos que el botón sea un bloque en línea */
+        font-size: 16px; /* tamaño de la fuente */
+        border-radius: 8px; /* agregamos bordes redondeados */
+        transition: all 0.3s ease 0s; /* añadimos una transición al pasar el cursor sobre el botón */
+        cursor: pointer; /* cambiamos el cursor a una mano al pasar sobre el botón */
+        margin-bottom: 15px;
+    }
+    .boton-bonito2:hover {
+        background-color: #1178b3; /* color de fondo al pasar el cursor */
+    }
+    
