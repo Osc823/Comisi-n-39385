@@ -1,0 +1,19 @@
+@media (max-width:1024px){
+    .grid-layout{
+        display: grid;
+        grid-template-areas:'cabecera cabecera'
+                              'menu menu'
+                              'nosotros nosotros'
+                              'contenido contenido'
+                              'footer footer';
+        grid-template-rows: auto auto auto auto auto ;
+        grid-template-columns: 60% 40%;
+        background-color: aquamarine;
+        border: 1px solid black;
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

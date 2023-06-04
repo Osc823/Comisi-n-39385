@@ -8,4 +8,9 @@
 
 @import '../scss/layout/motos/carrusel.scss';
 @import '../scss/layout/motos/cards.scss';
-@import '../scss/layout/motos/mapa.scss'
+@import '../scss/layout/motos/mapa.scss';
+
+/**mediaquery1024**/
+@import '../scss/layout/mediaquery/mediaquery1024.scss';
+@import '../scss/layout/mediaquery/mediaquery768.scss';
+@import '../scss/layout/mediaquery/mediaquery320.scss'

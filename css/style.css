@@ -600,21 +600,6 @@ header .rounded-image-icon {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 767px) {
-  .site-footer {
-    padding-bottom: 0;
-  }
-  .site-footer .copyright-text, .site-footer .social-icons {
-    text-align: center;
-  }
-}
-@media (max-width: 767px) {
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600;
-  }
-}
 /**AKT*/
 .caja-carruselakt {
   padding: 10px;
@@ -879,6 +864,88 @@ header .rounded-image-icon {
   font-family: "Black Ops One", cursive;
   color: #cfcbcb;
   font-size: 40px;
+}
+
+/**mediaquery1024**/
+@media (max-width: 1024px) {
+  .grid-layout {
+    display: grid;
+    grid-template-areas: "cabecera cabecera" "menu menu" "nosotros nosotros" "contenido contenido" "footer footer";
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 60% 40%;
+    background-color: aquamarine;
+    border: 1px solid black;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 768px) {
+  .grid-layout {
+    display: grid;
+    grid-template-areas: "cabecera cabecera" "menu menu" "nosotros nosotros" "contenido contenido" "footer footer";
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 60% 40%;
+    background-color: aquamarine;
+    border: 1px solid black;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: #ffffff solid 1px;
+    width: 250px;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text, .site-footer .social-icons {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .titulo_vi-mi {
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Black Ops One", cursive;
+    color: #333333;
+    font-size: 27px;
+  }
+  .h2-mantenimientos {
+    font-size: 14px;
+  }
+  .titulo_medio {
+    text-align: center;
+    font-family: "Black Ops One", cursive;
+    color: #333333;
+    font-size: 30px;
+  }
+  .caja-carrusel {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
